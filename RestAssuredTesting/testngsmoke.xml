@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+
+  <listeners>	
+	<listener class-name="resources.ExtentReporterNG"></listener>
+		</listeners> 
+	
+
+
+  <test thread-count="5" name="Place Search">
+    <classes>
+     
+      <class name="com.RestAssuredTesting.DeletePost"/>
+      <class name="com.RestAssuredTesting.GetPostComments"/>
+      <class name="com.RestAssuredTesting.GetPosts"/>
+      <class name="com.RestAssuredTesting.UpdatePost"/>
+      
+    </classes>
+  </test> 
+  
+ <!--  <test thread-count="5" name="Error login ">
+    <classes>
+      <class name="com.EcommerceSiteAutomation.Tests.ErrorScenario"/>
+    </classes>
+  </test> --> <!-- Test -->
+  
+<!-- Test -->
+</suite>
