@@ -1,0 +1,14 @@
+22:19:40.777 [TestNG-tests-1] INFO  com.RestAssuredTesting.AddPost - Add post information
+22:19:41.727 [TestNG-tests-1] INFO  com.RestAssuredTesting.AddPost - {
+  "title": "First Post Added through Automation",
+  "body": "bar",
+  "userId": 1,
+  "id": 101
+}
+22:52:18.802 [TestNG-tests-1] INFO  com.RestAssuredTesting.AddPost - Add post information
+22:52:19.648 [TestNG-tests-1] INFO  com.RestAssuredTesting.AddPost - {
+  "title": "First Post Added through Automation",
+  "body": "bar",
+  "userId": 1,
+  "id": 101
+}
