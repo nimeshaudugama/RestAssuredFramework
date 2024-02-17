@@ -24,7 +24,7 @@ Properties pro = new Properties();
 public void getData() throws IOException {
 	
 
-	FileInputStream fis = new FileInputStream("/Users/nimesha/eclipse-workspace/RestAssuredTesting/src/main/java/properties/environment.properties");
+	FileInputStream fis = new FileInputStream((System.getProperty("user.dir")+"/src/main/java/properties/environment.properties"));
 	pro.load(fis);
 	pro.get("HOST");
 	
